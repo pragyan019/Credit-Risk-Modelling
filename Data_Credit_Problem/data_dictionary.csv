@@ -1,0 +1,420 @@
+column_name,explanation
+Loans Data columns ,
+boost_loan_id,loan info
+master_user_id,loan info
+emi_amount,loan info
+amount,loan amount
+disbursed_at,loan info
+Period,loan tenure
+interest_rate,loan info
+is_non_starter,Is the user paid at all 
+no_of_paid_installments,loan info
+no_of_missed_installments,loan info
+max_dpd,Maximum of all instalments days past due 
+current_dpd,Current days past due
+,
+,
+Assessments data columns,
+assessment_id,assessment info
+age,user info
+all_devices_count,user info
+assessment_rules,assessment info
+bank_sms_count,assessment info
+bureau,assessment info
+cc_american_express_count,credit card info
+cc_avg_days_between_txns,credit card bureau info
+cc_avg_monthly_txn_amount_12m,credit card bureau info
+cc_avg_monthly_txn_amount_1m,credit card bureau info
+cc_avg_monthly_txn_amount_2m,credit card bureau info
+cc_avg_monthly_txn_amount_3m,credit card bureau info
+cc_avg_monthly_txn_amount_6m,credit card bureau info
+cc_avg_monthly_txn_count_12m,credit card bureau info
+cc_avg_monthly_txn_count_1m,credit card bureau info
+cc_avg_monthly_txn_count_2m,credit card bureau info
+cc_avg_monthly_txn_count_3m,credit card bureau info
+cc_avg_monthly_txn_count_6m,credit card bureau info
+cc_avg_txn_amount_180d,credit card bureau info
+cc_avg_txn_amount_30d,credit card bureau info
+cc_avg_txn_amount_360d,credit card bureau info
+cc_avg_txn_amount_60d,credit card bureau info
+cc_avg_txn_amount_90d,credit card bureau info
+cc_cards_count,credit card bureau info
+cc_citibank_count,credit card bureau info
+cc_hdfc_bank_count,credit card bureau info
+cc_icici_bank_count,credit card bureau info
+cc_kotak_bank_count,credit card bureau info
+cc_max_monthly_txn_amount_12m,credit card bureau info
+cc_max_monthly_txn_amount_1m,credit card bureau info
+cc_max_monthly_txn_amount_2m,credit card bureau info
+cc_max_monthly_txn_amount_3m,credit card bureau info
+cc_max_monthly_txn_amount_6m,credit card bureau info
+cc_max_txn_amount_180d,credit card bureau info
+cc_max_txn_amount_30d,credit card bureau info
+cc_max_txn_amount_360d,credit card bureau info
+cc_max_txn_amount_60d,credit card bureau info
+cc_max_txn_amount_90d,credit card bureau info
+cc_median_days_between_txns,credit card bureau info
+cc_median_monthly_txn_amount_12m,credit card bureau info
+cc_median_monthly_txn_amount_1m,credit card bureau info
+cc_median_monthly_txn_amount_2m,credit card bureau info
+cc_median_monthly_txn_amount_3m,credit card bureau info
+cc_median_monthly_txn_amount_6m,credit card bureau info
+cc_median_monthly_txn_count_12m,credit card bureau info
+cc_median_monthly_txn_count_1m,credit card bureau info
+cc_median_monthly_txn_count_2m,credit card bureau info
+cc_median_monthly_txn_count_3m,credit card bureau info
+cc_median_monthly_txn_count_6m,credit card bureau info
+cc_median_txn_amount_180d,credit card bureau info
+cc_median_txn_amount_30d,credit card bureau info
+cc_median_txn_amount_360d,credit card bureau info
+cc_median_txn_amount_60d,credit card bureau info
+cc_median_txn_amount_90d,credit card bureau info
+cc_min_monthly_txn_amount_12m,credit card bureau info
+cc_min_monthly_txn_amount_1m,credit card bureau info
+cc_min_monthly_txn_amount_2m,credit card bureau info
+cc_min_monthly_txn_amount_3m,credit card bureau info
+cc_min_monthly_txn_amount_6m,credit card bureau info
+cc_min_txn_amount_180d,credit card bureau info
+cc_min_txn_amount_30d,credit card bureau info
+cc_min_txn_amount_360d,credit card bureau info
+cc_min_txn_amount_60d,credit card bureau info
+cc_min_txn_amount_90d,credit card bureau info
+cc_standard_chartered_count,credit card bureau info
+cc_state_bank_of_india_count,credit card bureau info
+cc_sum_txn_amount_180d,credit card bureau info
+cc_sum_txn_amount_30d,credit card bureau info
+cc_sum_txn_amount_360d,credit card bureau info
+cc_sum_txn_amount_60d,credit card bureau info
+cc_sum_txn_amount_90d,credit card bureau info
+cc_txn_count_180d,credit card bureau info
+cc_txn_count_30d,credit card bureau info
+cc_txn_count_360d,credit card bureau info
+cc_txn_count_60d,credit card bureau info
+cc_txn_count_90d,credit card bureau info
+cibil_obligations,bureau info
+cibil_request_id,bureau info
+cibil_salary_date_reported,bureau info
+cibil_salary_estimate,bureau info
+cibil_salary_estimate_type,bureau info
+cibil_score,bureau info
+city,city
+assessment_created_at,assessment info
+dc_american_express_count,debit card bureau info
+dc_avg_days_between_txns,debit card bureau info
+dc_avg_monthly_txn_amount_12m,debit card bureau info
+dc_avg_monthly_txn_amount_1m,debit card bureau info
+dc_avg_monthly_txn_amount_2m,debit card bureau info
+dc_avg_monthly_txn_amount_3m,debit card bureau info
+dc_avg_monthly_txn_amount_6m,debit card bureau info
+dc_avg_monthly_txn_count_12m,debit card bureau info
+dc_avg_monthly_txn_count_1m,debit card bureau info
+dc_avg_monthly_txn_count_2m,debit card bureau info
+dc_avg_monthly_txn_count_3m,debit card bureau info
+dc_avg_monthly_txn_count_6m,debit card bureau info
+dc_avg_txn_amount_180d,debit card bureau info
+dc_avg_txn_amount_30d,debit card bureau info
+dc_avg_txn_amount_360d,debit card bureau info
+dc_avg_txn_amount_60d,debit card bureau info
+dc_avg_txn_amount_90d,debit card bureau info
+dc_cards_count,debit card bureau info
+dc_citibank_count,debit card bureau info
+dc_hdfc_bank_count,debit card bureau info
+dc_icici_bank_count,debit card bureau info
+dc_kotak_bank_count,debit card bureau info
+dc_max_monthly_txn_amount_12m,debit card bureau info
+dc_max_monthly_txn_amount_1m,debit card bureau info
+dc_max_monthly_txn_amount_2m,debit card bureau info
+dc_max_monthly_txn_amount_3m,debit card bureau info
+dc_max_monthly_txn_amount_6m,debit card bureau info
+dc_max_txn_amount_180d,debit card bureau info
+dc_max_txn_amount_30d,debit card bureau info
+dc_max_txn_amount_360d,debit card bureau info
+dc_max_txn_amount_60d,debit card bureau info
+dc_max_txn_amount_90d,debit card bureau info
+dc_median_days_between_txns,debit card bureau info
+dc_median_monthly_txn_amount_12m,debit card bureau info
+dc_median_monthly_txn_amount_1m,debit card bureau info
+dc_median_monthly_txn_amount_2m,debit card bureau info
+dc_median_monthly_txn_amount_3m,debit card bureau info
+dc_median_monthly_txn_amount_6m,debit card bureau info
+dc_median_monthly_txn_count_12m,debit card bureau info
+dc_median_monthly_txn_count_1m,debit card bureau info
+dc_median_monthly_txn_count_2m,debit card bureau info
+dc_median_monthly_txn_count_3m,debit card bureau info
+dc_median_monthly_txn_count_6m,debit card bureau info
+dc_median_txn_amount_180d,debit card bureau info
+dc_median_txn_amount_30d,debit card bureau info
+dc_median_txn_amount_360d,debit card bureau info
+dc_median_txn_amount_60d,debit card bureau info
+dc_median_txn_amount_90d,debit card bureau info
+dc_min_monthly_txn_amount_12m,debit card bureau info
+dc_min_monthly_txn_amount_1m,debit card bureau info
+dc_min_monthly_txn_amount_2m,debit card bureau info
+dc_min_monthly_txn_amount_3m,debit card bureau info
+dc_min_monthly_txn_amount_6m,debit card bureau info
+dc_min_txn_amount_180d,debit card bureau info
+dc_min_txn_amount_30d,debit card bureau info
+dc_min_txn_amount_360d,debit card bureau info
+dc_min_txn_amount_60d,debit card bureau info
+dc_min_txn_amount_90d,debit card bureau info
+dc_standard_chartered_count,debit card bureau info
+dc_state_bank_of_india_count,debit card bureau info
+dc_sum_txn_amount_180d,debit card bureau info
+dc_sum_txn_amount_30d,debit card bureau info
+dc_sum_txn_amount_360d,debit card bureau info
+dc_sum_txn_amount_60d,debit card bureau info
+dc_sum_txn_amount_90d,debit card bureau info
+dc_txn_count_180d,debit card bureau info
+dc_txn_count_30d,debit card bureau info
+dc_txn_count_360d,debit card bureau info
+dc_txn_count_60d,debit card bureau info
+dc_txn_count_90d,debit card bureau info
+employer,user info
+employer_category,user info
+employer_id,user info
+is_approved_flexi,assessment info
+is_approved_premium,assessment info
+matched_devices_count,user info
+messages_count,user info
+monthly_capacity,user info
+network_contacts_in_cibil_score_average,network info
+network_contacts_in_cibil_score_median,network info
+network_contacts_in_cibil_score_negative_count,network info
+network_contacts_in_cibil_wilful_defaults_count,network info
+network_contacts_in_cibil_write_offs_count,network info
+network_contacts_in_declined_users_count,network info
+network_contacts_in_disbursed_users_count,network info
+network_contacts_in_dpd_30_users_count,network info
+network_contacts_in_dpd_60_users_count,network info
+network_contacts_in_dpd_90_users_count,network info
+network_contacts_in_ps_users_count,network info
+network_contacts_in_rejected_users_count,network info
+network_contacts_in_users_count,network info
+network_contacts_out_cibil_score_average,network info
+network_contacts_out_cibil_score_median,network info
+network_contacts_out_cibil_score_negative_count,network info
+network_contacts_out_cibil_wilful_defaults_count,network info
+network_contacts_out_cibil_write_offs_count,network info
+network_contacts_out_declined_users_count,network info
+network_contacts_out_disbursed_users_count,network info
+network_contacts_out_dpd_30_users_count,network info
+network_contacts_out_dpd_60_users_count,network info
+network_contacts_out_dpd_90_users_count,network info
+network_contacts_out_ps_users_count,network info
+network_contacts_out_rejected_users_count,network info
+network_contacts_out_users_count,network info
+perfios_salary_day_of_month,user info
+perfios_salary_estimate,user info
+perfios_salary_estimate_type,user info
+postal_code,user info
+product_type,user info
+reason_flexi,user info
+reason_premium,user info
+residence_tenure_in_weeks,bureau info
+restructured_loan_count_52,bureau info
+rule_engine_output,assessment info
+salary_day_of_month,assessment info
+salary_estimate,assessment info
+salary_estimate_type,assessment info
+salary_in_payslip,user info
+scheme,user info
+secured_inquiry_count_9,bureau info
+sms_credit_180d_360d_amount,device info
+sms_credit_180d_360d_count,device info
+sms_credit_180d_360d_unique_accounts,device info
+sms_credit_30d_60d_amount,device info
+sms_credit_30d_60d_count,device info
+sms_credit_30d_60d_unique_accounts,device info
+sms_credit_30d_amount,device info
+sms_credit_30d_count,device info
+sms_credit_30d_unique_accounts,device info
+sms_credit_60d_180d_amount,device info
+sms_credit_60d_180d_count,device info
+sms_credit_60d_180d_unique_accounts,device info
+sms_credit_account_180d_360d_amount,device info
+sms_credit_account_180d_360d_count,device info
+sms_credit_account_30d_60d_amount,device info
+sms_credit_account_30d_60d_count,device info
+sms_credit_account_30d_amount,device info
+sms_credit_account_30d_count,device info
+sms_credit_account_60d_180d_amount,device info
+sms_credit_account_60d_180d_count,device info
+sms_credit_atm_180d_360d_amount,device info
+sms_credit_atm_180d_360d_count,device info
+sms_credit_atm_30d_60d_amount,device info
+sms_credit_atm_30d_60d_count,device info
+sms_credit_atm_30d_amount,device info
+sms_credit_atm_30d_count,device info
+sms_credit_atm_60d_180d_amount,device info
+sms_credit_atm_60d_180d_count,device info
+sms_credit_ib_180d_360d_amount,device info
+sms_credit_ib_180d_360d_count,device info
+sms_credit_ib_30d_60d_amount,device info
+sms_credit_ib_30d_60d_count,device info
+sms_credit_ib_30d_amount,device info
+sms_credit_ib_30d_count,device info
+sms_credit_ib_60d_180d_amount,device info
+sms_credit_ib_60d_180d_count,device info
+sms_credit_mb_180d_360d_amount,device info
+sms_credit_mb_180d_360d_count,device info
+sms_credit_mb_30d_60d_amount,device info
+sms_credit_mb_30d_60d_count,device info
+sms_credit_mb_30d_amount,device info
+sms_credit_mb_30d_count,device info
+sms_credit_mb_60d_180d_amount,device info
+sms_credit_mb_60d_180d_count,device info
+sms_days_count,device info
+sms_debit_180d_360d_amount,device info
+sms_debit_180d_360d_count,device info
+sms_debit_180d_360d_unique_accounts,device info
+sms_debit_30d_60d_amount,device info
+sms_debit_30d_60d_count,device info
+sms_debit_30d_60d_unique_accounts,device info
+sms_debit_30d_amount,device info
+sms_debit_30d_count,device info
+sms_debit_30d_unique_accounts,device info
+sms_debit_60d_180d_amount,device info
+sms_debit_60d_180d_count,device info
+sms_debit_60d_180d_unique_accounts,device info
+sms_debit_account_180d_360d_amount,device info
+sms_debit_account_180d_360d_count,device info
+sms_debit_account_30d_60d_amount,device info
+sms_debit_account_30d_60d_count,device info
+sms_debit_account_30d_amount,device info
+sms_debit_account_30d_count,device info
+sms_debit_account_60d_180d_amount,device info
+sms_debit_account_60d_180d_count,device info
+sms_debit_atm_180d_360d_amount,device info
+sms_debit_atm_180d_360d_count,device info
+sms_debit_atm_30d_60d_amount,device info
+sms_debit_atm_30d_60d_count,device info
+sms_debit_atm_30d_amount,device info
+sms_debit_atm_30d_count,device info
+sms_debit_atm_60d_180d_amount,device info
+sms_debit_atm_60d_180d_count,device info
+sms_debit_ib_180d_360d_amount,device info
+sms_debit_ib_180d_360d_count,device info
+sms_debit_ib_30d_60d_amount,device info
+sms_debit_ib_30d_60d_count,device info
+sms_debit_ib_30d_amount,device info
+sms_debit_ib_30d_count,device info
+sms_debit_ib_60d_180d_amount,device info
+sms_debit_ib_60d_180d_count,device info
+sms_debit_mb_180d_360d_amount,device info
+sms_debit_mb_180d_360d_count,device info
+sms_debit_mb_30d_60d_amount,device info
+sms_debit_mb_30d_60d_count,device info
+sms_debit_mb_30d_amount,device info
+sms_debit_mb_30d_count,device info
+sms_debit_mb_60d_180d_amount,device info
+sms_debit_mb_60d_180d_count,device info
+sms_insufficient_funds_180d_360d_amount,device info
+sms_insufficient_funds_180d_360d_count,device info
+sms_insufficient_funds_180d_360d_unique_accounts,device info
+sms_insufficient_funds_30d_60d_amount,device info
+sms_insufficient_funds_30d_60d_count,device info
+sms_insufficient_funds_30d_60d_unique_accounts,device info
+sms_insufficient_funds_30d_amount,device info
+sms_insufficient_funds_30d_count,device info
+sms_insufficient_funds_30d_unique_accounts,device info
+sms_insufficient_funds_60d_180d_amount,device info
+sms_insufficient_funds_60d_180d_count,device info
+sms_insufficient_funds_60d_180d_unique_accounts,device info
+sms_insufficient_funds_account_180d_360d_amount,device info
+sms_insufficient_funds_account_180d_360d_count,device info
+sms_insufficient_funds_account_30d_60d_amount,device info
+sms_insufficient_funds_account_30d_60d_count,device info
+sms_insufficient_funds_account_30d_amount,device info
+sms_insufficient_funds_account_30d_count,device info
+sms_insufficient_funds_account_60d_180d_amount,device info
+sms_insufficient_funds_account_60d_180d_count,device info
+sms_insufficient_funds_atm_180d_360d_amount,device info
+sms_insufficient_funds_atm_180d_360d_count,device info
+sms_insufficient_funds_atm_30d_60d_amount,device info
+sms_insufficient_funds_atm_30d_60d_count,device info
+sms_insufficient_funds_atm_30d_amount,device info
+sms_insufficient_funds_atm_30d_count,device info
+sms_insufficient_funds_atm_60d_180d_amount,device info
+sms_insufficient_funds_atm_60d_180d_count,device info
+sms_insufficient_funds_cc_180d_360d_amount,device info
+sms_insufficient_funds_cc_180d_360d_count,device info
+sms_insufficient_funds_cc_30d_60d_amount,device info
+sms_insufficient_funds_cc_30d_60d_count,device info
+sms_insufficient_funds_cc_30d_amount,device info
+sms_insufficient_funds_cc_30d_count,device info
+sms_insufficient_funds_cc_60d_180d_amount,device info
+sms_insufficient_funds_cc_60d_180d_count,device info
+sms_insufficient_funds_chq_returned_180d_360d_amount,device info
+sms_insufficient_funds_chq_returned_180d_360d_count,device info
+sms_insufficient_funds_chq_returned_30d_60d_amount,device info
+sms_insufficient_funds_chq_returned_30d_60d_count,device info
+sms_insufficient_funds_chq_returned_30d_amount,device info
+sms_insufficient_funds_chq_returned_30d_count,device info
+sms_insufficient_funds_chq_returned_60d_180d_amount,device info
+sms_insufficient_funds_chq_returned_60d_180d_count,device info
+sms_insufficient_funds_dc_180d_360d_amount,device info
+sms_insufficient_funds_dc_180d_360d_count,device info
+sms_insufficient_funds_dc_30d_60d_amount,device info
+sms_insufficient_funds_dc_30d_60d_count,device info
+sms_insufficient_funds_dc_30d_amount,device info
+sms_insufficient_funds_dc_30d_count,device info
+sms_insufficient_funds_dc_60d_180d_amount,device info
+sms_insufficient_funds_dc_60d_180d_count,device info
+sms_insufficient_funds_txn_declined_180d_360d_amount,device info
+sms_insufficient_funds_txn_declined_180d_360d_count,device info
+sms_insufficient_funds_txn_declined_30d_60d_amount,device info
+sms_insufficient_funds_txn_declined_30d_60d_count,device info
+sms_insufficient_funds_txn_declined_30d_amount,device info
+sms_insufficient_funds_txn_declined_30d_count,device info
+sms_insufficient_funds_txn_declined_60d_180d_amount,device info
+sms_insufficient_funds_txn_declined_60d_180d_count,device info
+sms_late_notice_180d_360d_amount,device info
+sms_late_notice_180d_360d_count,device info
+sms_late_notice_180d_360d_unique_accounts,device info
+sms_late_notice_30d_60d_amount,device info
+sms_late_notice_30d_60d_count,device info
+sms_late_notice_30d_60d_unique_accounts,device info
+sms_late_notice_30d_amount,device info
+sms_late_notice_30d_count,device info
+sms_late_notice_30d_unique_accounts,device info
+sms_late_notice_60d_180d_amount,device info
+sms_late_notice_60d_180d_count,device info
+sms_late_notice_60d_180d_unique_accounts,device info
+sms_late_notice_account_180d_360d_amount,device info
+sms_late_notice_account_180d_360d_count,device info
+sms_late_notice_account_30d_60d_amount,device info
+sms_late_notice_account_30d_60d_count,device info
+sms_late_notice_account_30d_amount,device info
+sms_late_notice_account_30d_count,device info
+sms_late_notice_account_60d_180d_amount,device info
+sms_late_notice_account_60d_180d_count,device info
+sms_late_notice_cc_180d_360d_amount,device info
+sms_late_notice_cc_180d_360d_count,device info
+sms_late_notice_cc_30d_60d_amount,device info
+sms_late_notice_cc_30d_60d_count,device info
+sms_late_notice_cc_30d_amount,device info
+sms_late_notice_cc_30d_count,device info
+sms_late_notice_cc_60d_180d_amount,device info
+sms_late_notice_cc_60d_180d_count,device info
+sms_late_notice_loan_180d_360d_amount,device info
+sms_late_notice_loan_180d_360d_count,device info
+sms_late_notice_loan_30d_60d_amount,device info
+sms_late_notice_loan_30d_60d_count,device info
+sms_late_notice_loan_30d_amount,device info
+sms_late_notice_loan_30d_count,device info
+sms_late_notice_loan_60d_180d_amount,device info
+sms_late_notice_loan_60d_180d_count,device info
+sms_unique_days_count,device info
+state,user info
+stated_income,user info
+suit_filed_count_52,bureau info
+suit_filed_wilful_default_count_52,bureau info
+sum_overdue_amount_52,bureau info
+sum_overdue_amount_cc_52,bureau info
+sum_overdue_amount_non_cc_52,bureau info
+unsecured_inquiry_count_9,bureau info
+updated_at,assessment info
+version,assessment info
+wilful_default_count_52,bureau info
+written_off_count_52,bureau info
+line_amount,assessment info
